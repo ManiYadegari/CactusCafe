@@ -1,0 +1,213 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+@font-face {
+  font-family: estedad;
+  src: url(../fonts/Estedad-Medium.ttf);
+}
+* {
+  padding: 0;
+  margin: 0;
+  font-family: estedad;
+  scroll-behavior: smooth;
+}
+
+/* header start */
+header {
+  background: url(../images/banner.png) no-repeat top center;
+  background-size: cover;
+  width: 100%;
+  height: 275px;
+  display: flex;
+  justify-content: center;
+  position: relative;
+}
+header > .info {
+  position: absolute;
+  top: 160px;
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  background-color: #5fb145;
+  width: 710px;
+  height: 45px;
+  border-radius: 20px;
+  border: #fff 3px solid;
+}
+header > .info > div {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+header > .info > div > a {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  text-decoration: none;
+  color: #000;
+  transition: all ease 0.3s;
+}
+header > .info > div > a:hover {
+  filter: brightness(0) saturate(100%) invert(100%) sepia(0%) saturate(2%)
+    hue-rotate(229deg) brightness(108%) contrast(101%);
+}
+header > .info > div.address p {
+  font-family: estedad;
+}
+header > .info img {
+  width: 25px;
+}
+header > .info p {
+  font-family: Poppins;
+  text-transform: uppercase;
+}
+/* header end */
+
+/* menu start */
+.menu {
+  width: 100%;
+  height: 95px;
+  background-color: #ffffff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 170px;
+  padding: 5px 0;
+  box-sizing: border-box;
+  border-top: 1px solid #0000005d;
+  border-bottom: 1px solid #0000005d;
+}
+.menu > a {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-decoration: none;
+  gap: 5px;
+  color: #000;
+  font-family: estedad;
+  transition: all ease 0.3s;
+}
+.menu > a:hover {
+  transform: scale(1.05);
+  filter: drop-shadow(2px 2px 2px #00000098);
+}
+.menu > a > img {
+  width: 40px;
+}
+.menu > a > p{
+  font-size: 15px;
+}
+/* menu end */
+.category {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 50px 175px;
+  box-sizing: border-box;
+  width: 100%;
+  gap: 30px;
+}
+.category > h1 {
+  letter-spacing: 1px;
+}
+.category > .item-container {
+  display: flex;
+  justify-content: center;
+  flex-direction: row-reverse;
+  flex-wrap: wrap;
+  width: 100%;
+  gap: 35px;
+}
+.category > .item-container > .item {
+  width: 230px;
+  height: 260px;
+  background-color: #f0f0f0;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: center;
+  border: 1px solid #0004;
+  border-radius: 20px;
+  transition: all ease 0.3s;
+  position: relative;
+  padding: 0 5px;
+  box-sizing: border-box;
+}
+.category > .item-container > .item:hover {
+  transform: scale(1.02);
+  filter: drop-shadow(1px 1px 5px #000000);
+}
+.category > .item-container > .item > img {
+  width: 90px;
+  height: 90px;
+  border-radius: 50%;
+  margin-top: 20px;
+  border: 3px solid #0004;
+}
+.category > .item-container > .item > h3 {
+  margin: 10px 0 0 0;
+  font-weight: normal;
+  font-size: 15px;
+  text-align: center;
+}
+.category > .item-container > .item > p {
+  font-size: 12px;
+  text-align: center;
+  padding: 0 18px;
+}
+.category > .item-container > .item > button {
+  margin-top: 20px;
+  width: 120px;
+  height: 35px;
+  border: 3px solid #0004;
+  border-radius: 20px;
+  background-color: #5fb145;
+  transition: all ease 0.3s;
+  position: absolute;
+  bottom: 20px;
+}
+.category > .item-container > .item > button:hover {
+  background-color: transparent;
+  cursor: pointer;
+  border: 3px solid #5fb145;
+  color: #000;
+}
+footer{
+  background-color: #8ccc8f;
+}
+footer > .info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  background-color: #5fb145;
+  width: 100%;
+  padding: 15px 0;
+  box-sizing: border-box;
+}
+footer > .info > div {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+footer > .info > div > a {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  text-decoration: none;
+  color: #000;
+  transition: all ease 0.3s;
+  font-size: 14px;
+}
+footer > .info > div > a:hover {
+  filter: brightness(0) saturate(100%) invert(100%) sepia(0%) saturate(2%)
+    hue-rotate(229deg) brightness(108%) contrast(101%);
+}
+footer > .info > div.address p {
+  font-family: estedad;
+}
+footer > .info img {
+  width: 25px;
+}
+footer > .info p {
+  font-family: Poppins;
+  text-transform: uppercase;
+}

@@ -1,0 +1,143 @@
+@media (max-width:1570px) {
+    header{
+        height: 210px;
+    }
+    header> .info{
+        top: 130px;
+    }
+}
+@media (max-width:1310px) {
+    header{
+        height: 190px;
+    }
+    header> .info{
+        top: 130px;
+        width: 610px;
+        gap: 20px;
+    }
+    header> .info > div > a {
+        font-size: 13px;
+    }
+    header> .info > div > a > img {
+        width: 20px;
+    }
+    .menu > a > img{
+        width: 35px;
+    }
+    .menu > a > p{
+        font-size: 14px;
+    }
+}
+@media (max-width:1240px) {
+    header{
+        height: 160px;
+    }
+    header> .info{
+        top: 100px;
+        width: 520px;
+        gap: 15px;
+    }
+    header> .info > div > a {
+        font-size: 12px;
+    }
+    header> .info > div > a > img {
+        width: 18px;
+    }
+    .menu{
+        gap: 130px;
+    }
+    .menu > a > img{
+        width: 32px;
+    }
+    .menu > a > p{
+        font-size: 13px;
+    }
+}
+@media (max-width:1050px){
+    header{
+        height: 140px;
+    }
+    header> .info{
+        top: 80px;
+        width: 510px;
+        height: 40px;
+        gap: 10px;
+    }
+}
+@media (max-width:890px){
+    header{
+        height: 130px;
+    }
+    header> .info{
+        top: 75px;
+        width: 470px;
+        height: 37px;
+        gap: 10px;
+    }
+    header> .info > div > a {
+        font-size: 11px;
+    }
+    header> .info > div > a > img {
+        width: 16px;
+    }
+    .menu{
+        gap: 100px;
+    }
+}
+@media (max-width:861px){
+    .category{
+        padding: 50px 50px;
+    }
+}
+@media (max-width:850px){
+    header{
+        height: 120px;
+    }
+    header> .info{
+        top: 70px;
+        width: 470px;
+        height: 37px;
+        gap: 10px;
+    }
+}
+@media (max-width:760px){
+    header{
+        height: 110px;
+    }
+    header> .info{
+        top: 60px;
+        width: 465px;
+        height: 35px;
+        gap: 10px;
+    }
+    header > .info > div > a{
+        gap: 1px;
+      }
+}
+@media (max-width:730px){
+    .menu{
+        flex-direction: column-reverse;
+        gap: 10px;
+        height: auto;
+    }
+    footer > .info > div > a {
+        font-size: 12px;
+    }
+}
+@media (max-width:690px){
+    header{
+        background: url('../images/banner2.png') no-repeat top center;
+        background-size: cover;
+    }
+    footer > .info > div > a {
+        font-size: 12px;
+    }
+}
+@media (max-width:490px) {
+    header> .info{
+        display: none;
+    }
+    footer > .info > div > a {
+        font-size: 12px;
+    }
+}
