@@ -92,7 +92,7 @@ header > .info p {
 .menu > a > img {
   width: 40px;
 }
-.menu > a > p{
+.menu > a > p {
   font-size: 15px;
 }
 /* menu end */
@@ -107,6 +107,7 @@ header > .info p {
 }
 .category > h1 {
   letter-spacing: 1px;
+  text-align: center;
 }
 .category > .item-container {
   display: flex;
@@ -163,6 +164,7 @@ header > .info p {
   transition: all ease 0.3s;
   position: absolute;
   bottom: 20px;
+  color: #000;
 }
 .category > .item-container > .item > button:hover {
   background-color: transparent;
@@ -170,7 +172,7 @@ header > .info p {
   border: 3px solid #5fb145;
   color: #000;
 }
-footer{
+footer {
   background-color: #8ccc8f;
 }
 footer > .info {
